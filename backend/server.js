@@ -45,7 +45,4 @@ app.use("/donations", donation);
 //card router
 app.use("/card",card)
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server On ${PORT}`);
-});
+module.exports=app
